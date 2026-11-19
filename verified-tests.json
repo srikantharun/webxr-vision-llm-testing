@@ -1,0 +1,32 @@
+[
+  {
+    "id": "targets",
+    "desc": "targets === 6",
+    "type": "SCENE",
+    "check": {
+      "metric": "targets",
+      "op": "eq",
+      "value": 6
+    }
+  },
+  {
+    "id": "balls",
+    "desc": "balls === 3",
+    "type": "SCENE",
+    "check": {
+      "metric": "balls",
+      "op": "eq",
+      "value": 3
+    }
+  },
+  {
+    "id": "score",
+    "desc": "score === 0",
+    "type": "SCENE",
+    "check": {
+      "metric": "score",
+      "op": "eq",
+      "value": 0
+    }
+  }
+]
